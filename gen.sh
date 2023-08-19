@@ -8,7 +8,3 @@ docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli generate \
     -c /local/config.yaml \
     -t /local/csharp
 sudo chmod o+w ${PWD}/out -R
-
-# Todo
-# [x] validatable
-# [ ] テンプレート
